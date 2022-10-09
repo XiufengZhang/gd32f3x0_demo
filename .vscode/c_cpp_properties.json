@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "GCC",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/app",
+                "${workspaceFolder}/drivers/inc",
+                "${workspaceFolder}/libraries/GD32F3x0_standard_peripheral/Include",
+                "${workspaceFolder}/system",
+                "${workspaceFolder}/system/include",
+                "/opt/gcc-arm-none-eabi-10-2020-q4-major/lib/gcc/arm-none-eabi/10.2.1/include",
+                "/opt/gcc-arm-none-eabi-10-2020-q4-major/lib/gcc/arm-none-eabi/10.2.1/include-fixed",
+                "/opt/gcc-arm-none-eabi-10-2020-q4-major/arm-none-eabi/lib",
+                "/opt/gcc-arm-none-eabi-10-2020-q4-major/arm-none-eabi/include",
+                "/opt/gcc-arm-none-eabi-10-2020-q4-major/arm-none-eabi/include/ssp",
+                "/opt/gcc-arm-none-eabi-10-2020-q4-major/arm-none-eabi/include/sys",
+                "/opt/gcc-arm-none-eabi-10-2020-q4-major/arm-none-eabi/include/c++/10.2.1"
+            ],
+            "defines": [
+                "GD32F330",
+                "USE_STDPERIPH_DRIVER",
+                "HXTAL_VALUE=24000000",
+                "ARM_MATH_CM4",
+                "ARM_MATH_MATRIX_CHECK",
+                "__VFP_FP__",
+                "__FPU_PRESENT=1",
+                "__GNUC__",
+                "LV_CONF_INCLUDE_SIMPLE"
+            ],
+            "compilerPath": "/opt/gcc-arm-none-eabi-10-2020-q4-major/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
